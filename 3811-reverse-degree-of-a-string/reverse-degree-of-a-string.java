@@ -7,9 +7,9 @@ class Solution {
 
             int position = i+1;
 
-            int product = reverse*position ;
+          
 
-            sum = sum + product;
+            sum += reverse*position ;
         }
 
         return sum;
